@@ -4,11 +4,13 @@
   "description": "App to optimize images",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
   },
   "author": "Shane Honanie",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^9.0.0"
+    "electron": "^9.0.0",
+    "nodemon": "^2.0.4"
   }
 }
